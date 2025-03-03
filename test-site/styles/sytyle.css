@@ -1,0 +1,42 @@
+/*p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+*/
+
+html {
+    font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+    background-color: #00539f; /* 背景色 */
+}
+
+body {
+    width: 600px; /* 页面宽度 */
+    margin: 0 auto; /* 居中 */
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px; /* 外边距 */
+    border: 5px solid black; /* 边框 */
+}
+
+h1 {
+    font-size: 60px; /* px 表示“像素（pixel）”: 标题字号为 60 像素 */
+    text-align: center; /* 让标题居中 */
+    margin: 0; /* 外边距为 0 */ /* 正文的顶部有一个难看的间隙。 设置消除间隙 */
+    padding: 20px 0; /* 内边距为 20px */
+    color: #00539f; /* 标题颜色 */
+    text-shadow: 3px 3px 1px black; /* 阴影 */
+}
+
+p,
+li {
+    font-size: 16px; /* px 表示“像素（pixel）”: 段落字号为 16 像素 */
+    line-height: 2; /* 行高为 2 倍字号 */
+    letter-spacing: 1px; /* 字间距为 1 像素 */
+}
+
+/* 图像居中 */
+img {
+    display: block; /* 使图像充满整个宽度 */
+    margin: 0 auto; /* 居中 */
+}
